@@ -131,6 +131,6 @@ function pageCall(page){
     queryParams[queryParams.length -1] = a;
     let b = queryParams.join('&');
     let url = urlSplit[0] +'?'+ b
-    getMovies(url);
+    getMovies(url)
   }
 }
